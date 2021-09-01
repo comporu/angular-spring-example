@@ -23,3 +23,20 @@ Just say okay in dialog about it.
 
 or run in terminal `ng serve`
 
+
+## Tips and links
+
+#### Learn RxJs operators with examples
+
+https://www.learnrxjs.io
+
+#### Why we need to unsubscribe
+
+https://www.youtube.com/watch?v=RhYUnc622qg&list=LL&index=20&t=861s
+
+
+#### RxJs Bad and Best practices
+
+https://composoft.atlassian.net/wiki/spaces/NCP/pages/392232977/.+RxJs
+
+
