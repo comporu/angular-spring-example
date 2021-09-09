@@ -1,0 +1,19 @@
+<p>rx works!</p>
+<p>tap</p>
+<p>map</p>
+<p>switch map: {{name$ | async}}</p>
+<p>take
+   {{takeDigit$ | async}}<br/>
+</p>
+<p>
+  resolved: {{digit$ | async}}<br/>
+
+  generated: {{randomDigit}}
+  <button (click)="random()">RANDOM</button>
+
+</p>
+<p>delay
+
+<input type="text" [(ngModel)]="myValue" (keyup)="search()">
+  {{ result$ | async}}
+</p>

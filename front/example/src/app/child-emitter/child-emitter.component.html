@@ -1,0 +1,8 @@
+<div class="component">
+  <h4>Child emitter</h4>
+  <div *ngIf="data !== 0">
+    {{data}}
+  </div>
+</div>
+
+<app-child (passDataUp)="showData($event)"></app-child>
